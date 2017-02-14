@@ -1,0 +1,13 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "Debug",
+			"type": "cppdbg",
+			"program": "${workspaceRoot}/a.out",
+			"request": "launch",
+			"cwd": "${workspaceRoot}",
+			"preLaunchTask": "g++"
+		}
+	]
+}
