@@ -3,11 +3,21 @@
 	"configurations": [
 		{
 			"name": "Debug",
-			"type": "cppdbg",
+			"type":"cppdbg",
+			 "linux": {
+				"MIMode": "gdb",
+				"miDebuggerPath": "/usr/bin/gdb",
+				"preLaunchTask": "g++"
+
+			},
+			"osx": {
+				"MIMode": "lldb",
+				"preLaunchTask": "clang++"
+
+			},
 			"program": "${workspaceRoot}/a.out",
 			"request": "launch",
-			"cwd": "${workspaceRoot}",
-			"preLaunchTask": "g++"
+			"cwd": "${workspaceRoot}"
 		}
 	]
 }

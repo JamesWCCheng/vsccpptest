@@ -2,6 +2,7 @@
 
 #include <iostream>
 #include <cstdlib>
+#include <string>
 using namespace std;
 
 class Foo
@@ -20,10 +21,12 @@ class Foo
     Foo& operator=(Foo&&)
     {
       cout<<__PRETTY_FUNCTION__<<endl;
+      return *this;
     }
 };
 
 int main()
 {
+  cout<<"Hello Test"<<endl;
   return 0;
 }
