@@ -4,6 +4,7 @@
     ".",
     ">"
   ],
+    "clang.cxxflags": ["-std=c++14"],
       // 控制字型大小 (以像素為單位)。
   "editor.fontSize": 16,
   "editor.tabSize": 2,
