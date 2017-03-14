@@ -4,6 +4,7 @@
 		{
 			"name": "Debug",
 			"type":"cppdbg",
+			"externalConsole": true,
 			 "linux": {
 				"MIMode": "gdb",
 				"miDebuggerPath": "/usr/bin/gdb",
